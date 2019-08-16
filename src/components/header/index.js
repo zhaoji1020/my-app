@@ -8,7 +8,7 @@ class Header extends Component {
             <div className="header">
                 <div className="header-content">
                     <div className="header-title">ToDoList</div>
-                    <Search></Search>
+                    <Search enterPress={this.props.todo.add}></Search>
                 </div>
             </div>
         )
